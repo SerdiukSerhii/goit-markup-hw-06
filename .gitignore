@@ -1,0 +1,38 @@
+# .prettierrc.json (паттерн-шаблон)
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "proseWrap": "always"
+}
+
+
+# сховати візуально елемент: (паттерн-шаблон)
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+# Кнопка не успадковує багато стилів оформлення тексту.
+
+Основні — це сімейство шрифтів і колір тексту. Рекомендується встановити глобальний стиль тегу button. Інші властивості та їх значення варто брати з макета.
+
+button {
+	font-family: inherit;
+	color: currentColor;
+}
