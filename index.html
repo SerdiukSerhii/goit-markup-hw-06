@@ -60,20 +60,72 @@
         </button>
       </div>
 
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu s-open">
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">Close</button>
+          <button class="mobile-menu-close">
+            <svg class="close-menu-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
           <nav class="mobile-menu-nav">
             <ul class="mobile-nav-list">
               <li class="mobile-nav-item">
-                <a href="">Studio</a>
+                <a class="mobile-nav-link" href="./index.html"> Studio</a>
               </li>
-              <li class="mobile-nav-item"><a href="">Portfolio</a></li>
-              <li class="mobile-nav-item"><a href="">Contacts</a></li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Contacts</a>
+              </li>
             </ul>
           </nav>
-          <address>Address</address>
-          <div>Soc link</div>
+          <address class="mobile-contacts">
+            <ul class="mobile-contacts-list">
+              <li class="mobile-contact-item">
+                <a class="mobile-contact-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-contact-item">
+                <a class="mobile-contact-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="mobile-socials-content">
+            <ul class="mobile-socials-list">
+              <li class="mobile-social-item">
+                <a class="mobile-social-link" href="">
+                  <svg class="mobile-icon-social" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a class="mobile-social-link" href="">
+                  <svg class="mobile-icon-social" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a class="mobile-social-link" href="">
+                  <svg class="mobile-icon-social" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a class="mobile-social-link" href="">
+                  <svg class="mobile-icon-social" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -81,7 +133,7 @@
 
     <main>
       <!-- #region hero -->
-      <section class="section-hero section hidden">
+      <section class="section-hero section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="button hero-button">
@@ -93,7 +145,7 @@
 
       <!-- #region features -->
 
-      <section class="section-features section hidden">
+      <section class="section-features section">
         <div class="container">
           <h2 class="features-title visually-hidden">Features</h2>
           <ul class="features-list">
