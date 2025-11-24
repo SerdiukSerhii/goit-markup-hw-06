@@ -493,7 +493,7 @@ textarea {
   color: #f4f4fd;
 }
 
-.footer-socials-content {
+.footer-socials-conteiner {
   display: flex;
   flex-direction: column;
 }
