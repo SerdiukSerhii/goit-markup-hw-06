@@ -32,7 +32,7 @@
               <a href="./index.html" class="nav-link current">Studio</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Portfolio</a>
+              <a href="" class="nav-link color">Portfolio</a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link">Contacts</a>
@@ -58,75 +58,6 @@
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
-      </div>
-
-      <div class="mobile-menu s-open">
-        <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">
-            <svg class="close-menu-icon" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-black"></use>
-            </svg>
-          </button>
-          <nav class="mobile-menu-nav">
-            <ul class="mobile-nav-list">
-              <li class="mobile-nav-item">
-                <a class="mobile-nav-link" href="./index.html"> Studio</a>
-              </li>
-              <li class="mobile-nav-item">
-                <a class="mobile-nav-link" href="">Portfolio</a>
-              </li>
-              <li class="mobile-nav-item">
-                <a class="mobile-nav-link" href="">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <address class="mobile-contacts">
-            <ul class="mobile-contacts-list">
-              <li class="mobile-contact-item">
-                <a class="mobile-contact-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="mobile-contact-item">
-                <a class="mobile-contact-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-          <div class="mobile-socials-content">
-            <ul class="mobile-socials-list">
-              <li class="mobile-social-item">
-                <a class="mobile-social-link" href="">
-                  <svg class="mobile-icon-social" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="mobile-social-item">
-                <a class="mobile-social-link" href="">
-                  <svg class="mobile-icon-social" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="mobile-social-item">
-                <a class="mobile-social-link" href="">
-                  <svg class="mobile-icon-social" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="mobile-social-item">
-                <a class="mobile-social-link" href="">
-                  <svg class="mobile-icon-social" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </header>
     <!-- #endregion header -->
@@ -400,6 +331,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-photo"
+                  srcset="
+                    ./images/portfolio/banking.jpg    1x,
+                    ./images/portfolio/banking@2x.jpg 2x
+                  "
                   src="./images/portfolio/banking.jpg"
                   alt="Banking App"
                   width="360"
@@ -419,6 +354,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-photo"
+                  srcset="
+                    ./images/portfolio/cashless.jpg    1x,
+                    ./images/portfolio/cashless@2x.jpg 2x
+                  "
                   src="./images/portfolio/cashless.jpg"
                   alt="Cashless Payment"
                   width="360"
@@ -438,6 +377,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-photo"
+                  srcset="
+                    ./images/portfolio/meditation.jpg    1x,
+                    ./images/portfolio/meditation@2x.jpg 2x
+                  "
                   src="./images/portfolio/meditation.jpg"
                   alt="Meditation App"
                   width="360"
@@ -457,6 +400,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-photo"
+                  srcset="
+                    ./images/portfolio/taxi.jpg    1x,
+                    ./images/portfolio/taxi@2x.jpg 2x
+                  "
                   src="./images/portfolio/taxi.jpg"
                   alt="Taxi Service"
                   width="360"
@@ -476,6 +423,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-photo"
+                  srcset="
+                    ./images/portfolio/screen.jpg    1x,
+                    ./images/portfolio/screen@2x.jpg 2x
+                  "
                   src="./images/portfolio/screen.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -495,6 +446,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-photo"
+                  srcset="
+                    ./images/portfolio/online.jpg    1x,
+                    ./images/portfolio/online@2x.jpg 2x
+                  "
                   src="./images/portfolio/online.jpg"
                   alt="Online Courses"
                   width="360"
@@ -586,9 +541,84 @@
 
     <!-- #endregion footer -->
 
+    <!-- #region mobile menu -->
+
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close">
+          <svg class="close-menu-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link accent-nav" href="./index.html"
+                >Studio
+              </a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-contacts">
+          <ul class="mobile-contacts-list">
+            <li class="mobile-contact-item">
+              <a class="mobile-contact-link accent-tel" href="tel:+110001111111"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+            <li class="mobile-contact-item">
+              <a class="mobile-contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+          </ul>
+        </address>
+        <div class="mobile-socials-content">
+          <ul class="mobile-socials-list">
+            <li class="mobile-social-item">
+              <a class="mobile-social-link" href="">
+                <svg class="mobile-icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-item">
+              <a class="mobile-social-link" href="">
+                <svg class="mobile-icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-item">
+              <a class="mobile-social-link" href="">
+                <svg class="mobile-icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-item">
+              <a class="mobile-social-link" href="">
+                <svg class="mobile-icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- #endregion mobile menu -->
+
     <!-- #region Pop-up -->
 
-    <div class="backdrop hidden">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-popup" type="button">
           <svg class="close-popup-icon" width="8" height="8">
@@ -663,8 +693,10 @@
                   <use href="./images/icons.svg#icon-check-mark"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="" class="policy-link"> Privacy Policy </a>
+              <span class="policy-text-link">
+                I accept the terms and conditions of the
+                <a href="" class="policy-link"> Privacy Policy </a>
+              </span>
             </label>
           </div>
           <button class="button button-send" type="submit">Send</button>
