@@ -53,7 +53,7 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
@@ -67,7 +67,7 @@
       <section class="section-hero section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button hero-button">
+          <button type="button" class="button hero-button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -651,9 +651,9 @@
 
     <!-- #region mobile menu -->
 
-    <div class="mobile-menu">
+    <div class="mobile-menu" data-menu>
       <div class="container mobile-menu-container">
-        <button class="mobile-menu-close">
+        <button class="mobile-menu-close" data-menu-close>
           <svg class="close-menu-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -726,9 +726,9 @@
 
     <!-- #region Pop-up -->
 
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button class="close-popup" type="button">
+        <button class="close-popup" type="button" data-modal-close>
           <svg class="close-popup-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -784,8 +784,7 @@
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
-            >
-            </textarea>
+            ></textarea>
           </div>
           <div class="policy-field-wrapper">
             <input
@@ -813,5 +812,8 @@
     </div>
 
     <!-- #endregion Pop-up -->
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
